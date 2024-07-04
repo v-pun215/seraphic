@@ -1,0 +1,323 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+html {
+    scroll-behavior: smooth;
+    height:100%;
+}
+body{
+    margin:0;
+    font-family: 'Inter', sans-serif;
+    background-color: #040a1b;
+    color:#f0f0f0;
+    background-image:url(img/grad.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav {
+    background-color: #B0C4DE;
+    width: 88.25%;
+    display: flex;
+    height: 10px;
+    justify-content: space-between;
+    padding: 3rem 7rem;
+    -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.logo {
+    margin-left:5px;
+    font-weight:600;
+}
+.nav-link {
+    font-size: 22px;
+    color:black;
+    font-weight: 500;
+    text-decoration: none;
+    padding:10px;
+    margin-left:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:5px;
+    cursor:pointer;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.git-link {
+    color:#EFE9F3;
+    text-decoration: none; 
+    background-color: #1f1f23;
+    padding:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:5px;
+    cursor:pointer;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.git-link:hover {
+    background-color: #27272A;
+}
+.nav-link:hover {
+    background-color:rgba(0, 0, 0, 0.05);
+    color:#f0f0f0;
+}
+.center {
+    display: flex;
+    align-items: center;
+}
+.right {
+    display: flex;
+    align-items: center;
+}
+.left {
+    display:flex;
+    align-items: center;
+}
+.user {
+    font-size:22px;
+    color:black;
+    font-weight: 500;
+    text-decoration: none; 
+    background-color: transparent;
+    padding:8px;
+    padding-left: 15px;
+    padding-right: 18px;
+    border-radius:9px;
+    cursor:pointer;
+    border:black 1.5px solid;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.user:hover {
+    background-color: black;
+    color: white;
+}
+.banner {
+    text-align: center;
+    height:100vh;
+    background-color: #B0C4DE;
+}
+.banner .main {
+    font-size: 180px;
+    position: absolute;
+  left: 50%;
+  top: 35%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color:white;
+  -webkit-font-smoothing: antialiased;
+}
+.problem {
+    height:100vh;
+    padding:10px;
+    background-color: white;
+    text-align: center;
+}
+.problem h1 {
+    color:#1c2a4f;
+    font-size: 80px;
+    font-weight:900;
+}
+.problem li {
+    color:#000731;
+    font-size: 26px;
+    max-width: 60%;
+    text-align: left;
+}
+.solution {
+    height:100vh;
+    background-color: #040a1b;
+    text-align: center;
+    padding:10px;
+}
+.solution h1 {
+    margin-top:5vh;
+    font-size: 35px;
+}
+.solution p {
+    font-size:16px;
+    margin-top:-10px;
+}
+.solution .prod {
+    font-size:250px;
+    margin-top:20vh;
+}
+.explanation {
+    margin: auto;
+    height:40vh;
+    background-color: #040a1b;
+    padding:10px;
+    display: flex;
+}
+.lefty {
+    width:50%;
+    margin-left:16vh;
+    flex: 1;
+}
+.lefty p {
+    font-size: 26px;
+    color:#f0f0f0;
+    max-width:80%;
+}
+.righty {
+    margin-right:30vh;
+}
+.productsBuy {
+    width:70%;
+    height:50vh;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+.containerforproducts {
+    width:95%;
+    display: flex;
+    justify-content: space-between;
+    height:90%;
+    padding-top:33px;
+}
+.producting {
+    height:fit-content;
+    padding:17px;
+}
+.producting h1 {
+    color:white;
+    font-size: 40px;
+    margin-left:30px;
+}
+.productsDiv {
+    height:100vh;
+    background-color: #040a1b;
+    margin-top: -55px;
+}
+.containerprod {
+    display:flex;
+    justify-self: space-between;
+}
+.imageprod {
+    margin-left:10vh;
+}
+.details h1 {
+    color:#f0f0f0;
+    font-size: 40px;
+    font-weight: 500;
+}
+.checked {
+    color: orange;
+  }
+.firsty {
+    margin-left:33px;
+}
+hr {
+    margin-top:10px;
+  display: block;
+  height: 1px;
+  border: 0;
+  width:100vh;
+  border-top: 1px solid #303030;
+  margin: 1em 0;
+  padding: 0;
+}
+.details h2 {
+    margin-left:33px;
+    font-size: 30px;
+    font-weight: 600;
+    color:#18cc64;
+}
+.thefineprint {
+    color:#808080;
+    font-size: 13px;
+    margin-left:33px;
+    margin-top:-10px;
+}
+.more {
+    display:flex;
+    justify-content: center;
+}
+.no2 {
+    margin-left:20px;
+}
+.buy {
+    background-color: #18cc64;
+    color:white;
+    padding:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:10px;
+    border:none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    width:100px;
+    height:50px;
+    margin-left: 33px;
+    cursor:pointer;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    box-shadow: none;
+}
+.addcart {
+    background-color: #f5a008;
+    color:white;
+    padding:10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:10px;
+    border:none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    width:130px;
+    height:50px;
+    margin-left: 13px;
+    cursor:pointer;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    box-shadow: none;
+}
+.buy:hover {
+    transform: scale(1.1);
+}
+.addcart:hover {
+    transform: scale(1.1);
+}
+.contact {
+    margin-top: 50px;
+    height:60vh;
+    background-color: #040a1b;
+    text-align: center;
+    border-radius: 15px;
+    width:70%;
+    padding:10px;
+}
+.contact input {
+    height: 20px;
+    margin-top: 10px;
+    background-color: #27272A;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color:white;
+}
+.contact button {
+    background-color: #339dff;
+    color:white;
+    padding:10px;
+    height:40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:5px;
+    border:none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    cursor:pointer;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    box-shadow: none;
+}
+.contact textarea {
+    background-color: #27272A;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    width:95%;
+    height:47vh;
+    color:white;
+}
