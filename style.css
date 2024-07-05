@@ -93,7 +93,10 @@ nav {
 .banner {
     text-align: center;
     height:100vh;
-    background-color: #B0C4DE;
+    background-image: url(banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .banner .main {
     font-size: 180px;
@@ -142,7 +145,7 @@ nav {
 }
 .explanation {
     margin: auto;
-    height:40vh;
+    height:100vh;
     background-color: #040a1b;
     padding:10px;
     display: flex;
@@ -193,6 +196,10 @@ nav {
 }
 .imageprod {
     margin-left:10vh;
+    max-width: 40%;
+}
+.details {
+    width:50%;
 }
 .details h1 {
     color:#f0f0f0;
@@ -210,7 +217,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  width:100vh;
+  width: 95%;
   border-top: 1px solid #303030;
   margin: 1em 0;
   padding: 0;
@@ -320,4 +327,21 @@ hr {
     width:95%;
     height:47vh;
     color:white;
+}
+.navi {
+    height:100vh;
+    background-image: url(stuff.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 17px;
+}
+.navi h1 {
+    text-align: center;
+    font-size: 50px;
+}
+.navi p {
+    font-size:22px;
+    margin-left:10vh;
+    margin-top:20px;
 }
