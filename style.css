@@ -344,4 +344,5 @@ hr {
     font-size:22px;
     margin-left:10vh;
     margin-top:20px;
+    max-width: 80%;
 }
